@@ -66,21 +66,6 @@ The hyperparameters (T and λ) are tuned using grid search. The optimal values a
 
 The results of the classifiers are printed in the console. The most explanatory word features are also displayed.
 
-### Example Output
-
-```bash
-Training accuracy for perceptron:   0.8157
-Validation accuracy for perceptron: 0.7160
-Training accuracy for average perceptron:   0.9728
-Validation accuracy for average perceptron: 0.7980
-Training accuracy for Pegasos:                     0.9143
-Validation accuracy for Pegasos:                   0.7900
-
-Test accuracy for Pegasos: 0.8020
-Most Explanatory Word Features:
-['delicious', 'great', '!', 'best', 'perfect', 'loves', 'wonderful', 'glad', 'love', 'quickly']
-```
-
 ## Acknowledgments
 
 I would like to thank the MIT faculty for their excellent instruction and guidance throughout the [Statistics and Data Science MicroMasters Program](https://micromasters.mit.edu/ds/), particularly in the course "Machine Learning with Python: from Linear Models to Deep Learning".
